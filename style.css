@@ -39,6 +39,8 @@
     border: 10px dotted rgb(243, 152, 42);
     border-radius: 30px;
     padding: 10%;
+    margin-left:5vw;
+    margin-right:5vw;
 }
 #todo{
     display:flexbox;
