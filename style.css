@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Arvo:wght@700&family=Babylonica&family=DynaPuff:wght@400;600&family=Itim&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+   overflow: hidden;
+}
+.navbar{
+    background-color: rgb(22, 103, 243);
+    height: 20vh;
+    width: 100vw;
+}
+.logo{
+    font-family: babylonica;
+    color: aliceblue;
+}
+.logo h1{
+    width: 97vw;
+    font-size: 80px;
+    text-align: center;
+}
+.form{
+    margin-top: 5rem;
+}
+.main{
+    font-family: itim;
+    font-size: 1rem;
+    text-align: center;
+}
+.container{
+    align-items: center;
+}
+.no-task{
+    background-color: bisque;
+    height: 50vh;
+    width: 85vw;
+    text-align:center;
+    border: 10px dotted rgb(243, 152, 42);
+    border-radius: 30px;
+    padding: 10%;
+}
+#todo{
+    display:flexbox;
+    justify-content: space-evenly;
+    overscroll-behavior-block:auto;
+}
+.footer{
+    height: 100px;
+    width: auto;
+    background-color: rgb(22, 103, 243);
+    color: aliceblue;
+    font-family: itim;
+}
+.foot{
+    text-align: center;
+}
